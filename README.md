@@ -1,0 +1,2 @@
+# disclosure-crowler
+EDINET APIから任意の期間の有価証券報告書を禁止事項に反しないように優しく取得する
