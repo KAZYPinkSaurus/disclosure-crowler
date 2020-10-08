@@ -1,4 +1,4 @@
-from disclosure_crawler.crawler.disclosure_meta_file_crawler import (
+from disclosure.crawler.meta_file_crawler import (
     DisclosureMetaFileCrawler,
     MetaRecord,
 )
