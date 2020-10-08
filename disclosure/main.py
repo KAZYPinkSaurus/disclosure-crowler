@@ -68,7 +68,7 @@ def crawl_disclosure_each_date_from_metafile(meta_file, save_dir, is_extract):
     "--xbrl_extract",
     "is_extract",
     is_flag=True,
-    help="Whether to extract the xbrl file (default: False)",
+    help="Whether to extract the xbrl file",
 )
 def main(from_day, to_day, is_extract):
     # ダウンロードする日付を取得
