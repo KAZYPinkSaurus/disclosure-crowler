@@ -10,10 +10,10 @@ poetry install
 # how to use
 ```shell 
 # download disclosures which is submitted from 2020/01/01 to today.
-poetry run python -m disclosure.mian -f 2020-01-01
+poetry run python -m disclosure.main -f 2020-01-01
 
 # download disclosures which is submitted from 2020/01/01 to 2020/01/03 and extract zip.
-poetry run python -m disclosure.mian -f 2020-01-01 -t 2020-01-03 -x
+poetry run python -m disclosure.main -f 2020-01-01 -t 2020-01-03 -x
 ```
 
 # Option
