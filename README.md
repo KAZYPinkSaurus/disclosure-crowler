@@ -7,7 +7,7 @@ EDINET APIから任意の期間の有価証券報告書を禁止事項に反し�
 poetry install
 ```
 
-# how to use
+# How to use
 ```shell 
 # download disclosures which is submitted from 2020/01/01 to today.
 poetry run python -m disclosure.main -f 2020-01-01
@@ -16,7 +16,7 @@ poetry run python -m disclosure.main -f 2020-01-01
 poetry run python -m disclosure.main -f 2020-01-01 -t 2020-01-03 -x
 ```
 
-# Option
+# Options
 ```shell
 Usage: main.py [OPTIONS]
 
